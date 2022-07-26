@@ -25,7 +25,12 @@ function App() {
         <img classNmae="image" src="image.png" alt="summarize.me" width="437.5px" height="312.5px"/>
       </div>
       <div className='footer-div'>
-        <p>2022 &copy; summarize.me</p>
+        <div className='footer-items'>
+          <p>2022 &copy; summarize.me</p>
+          <a href='https://github.com/yltyadi/summarize-me' target="_blank">
+            <img className="github-logo" src="github-logo.png" alt="github" width="30px" height="30px"/>
+          </a>
+        </div>
       </div>
     </div>
   );
