@@ -40,13 +40,23 @@
   border-radius: 5px;
   border: none;
   background: #80ed99;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .main-body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.body-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
+  margin-right: 8%;
+  margin-left: 10px;
 }
 
 .description {
@@ -90,4 +100,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-body {
+    flex-direction: column;
+  }
+
+  .body-text {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .image {
+    margin-bottom: 10%;
+  }
 }

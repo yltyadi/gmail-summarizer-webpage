@@ -15,11 +15,14 @@ function App() {
         </div>
       </div>
       <div className='main-body'>
-        <h1>summarize.me</h1>
-        <h3 className='description'>A chrome extension that shortens long emails into concise summaries.</h3>
-        <a href='https://chrome.google.com/webstore/detail/gmail-summarizer/kgbcbbbcmkfnpebdllbppcofhmfeabol?hl=en&authuser=3' target='_blank'>
-          <button className='get-started-btn'>Get Started for Free</button>
-        </a>
+        <div className='body-text'>
+          <h1>Select, Click, Summarize</h1>
+          <h3 className='description'>A chrome extension that shortens long emails into concise summaries.</h3>
+          <a href='https://chrome.google.com/webstore/detail/gmail-summarizer/kgbcbbbcmkfnpebdllbppcofhmfeabol?hl=en&authuser=3' target='_blank'>
+            <button className='get-started-btn'>Get Started for Free</button>
+          </a>
+        </div>
+        <img classNmae="image" src="image.png" alt="summarize.me" width="437.5px" height="312.5px"/>
       </div>
       <div className='footer-div'>
         <p>2022 &copy; summarize.me</p>
